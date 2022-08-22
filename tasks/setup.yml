@@ -1,7 +1,7 @@
 ---
 - name: Add Cloudflare key
   apt_key:
-    url: 'https://pkg.cloudflare.com/pubkey.gpg'
+    url: 'https://pkg.cloudflare.com/cloudflare-main.gpg'
 
 - name: Add Cloudflare PPA
   apt_repository:
