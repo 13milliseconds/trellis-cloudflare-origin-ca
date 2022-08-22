@@ -5,7 +5,7 @@
 
 - name: Add Cloudflare PPA
   apt_repository:
-    repo: 'deb http://pkg.cloudflare.com/ xenial main'
+    repo: 'deb http://pkg.cloudflare.com/cloudflared jammy main'
 
 - name: Install CFCA
   apt:
